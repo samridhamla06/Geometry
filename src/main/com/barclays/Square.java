@@ -1,17 +1,9 @@
 package com.barclays;
 
-public class Square {
-    private int length;
+public class Square extends Rectangle {
 
     public Square(int length) {
-        this.length = length;
+        super(length, length);
     }
 
-    public int area() {
-        return length * length;
-    }
-
-    public int perimeter() {
-        return 4 * length;
-    }
 }

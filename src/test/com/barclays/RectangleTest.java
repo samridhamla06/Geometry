@@ -8,13 +8,14 @@ public class RectangleTest {
     @Test
     public void shouldCalculateArea() {
         rectangle = new Rectangle(12, 10);
-        assertEquals(120, rectangle.getArea());
+        assertEquals(120, rectangle.area());
     }
 
     @Test
     public void shouldCalculatePerimeter() {
         rectangle = new Rectangle(12, 10);
-        assertEquals(44, rectangle.getPerimeter());
+        assertEquals(44, rectangle.perimeter());
     }
+
 
 }

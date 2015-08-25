@@ -9,15 +9,15 @@ public class Rectangle  {
         this.length = length;
         this.breadth = breadth;
     }
+    public static Rectangle createSquare(int length){
+        return new Rectangle(length,length);
+    }
 
-
-
-    public int getArea() {
+    public int area() {
         return (this.length)*(this.breadth);
     }
 
-
-    public int getPerimeter() {
+    public int perimeter() {
         return 2*((this.length) + (this.breadth));
     }
 }
